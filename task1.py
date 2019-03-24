@@ -15,3 +15,29 @@
 * Use main() function to test your solution.
 ===================================================
 """
+
+def numpower(x, y):
+
+    exp = x ** y
+
+    return exp
+
+def main():
+
+    x = abs(int(input("Unesi prvi broj: ")))
+    y = abs(int(input("Unesi drugi broj: ")))
+
+    print(numpower(x, y))
+
+main()
+
+
+
+
+
+
+
+
+
+
+
