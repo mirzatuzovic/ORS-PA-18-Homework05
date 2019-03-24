@@ -13,3 +13,19 @@
 * Use main() function to test your solution.
 ===================================================
 """
+
+broj=int(input("Unesite broj: "))
+broj=abs(broj)
+
+pr=1
+
+while broj>0:
+    pr*=broj%10
+    broj=broj//10
+
+def main():
+
+    proizvod = pr
+    print("Proizvod cifara je: ", proizvod)
+
+main()
